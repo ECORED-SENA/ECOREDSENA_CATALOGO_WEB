@@ -416,23 +416,22 @@ export default {
     },
   ],
   creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable diseño y desarrollo web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Edward Leonardo Pico Cabra',
+        cargo: 'Desarrollo web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Daniel Ricardo Mutis Gómez',
-        cargo: 'Diseño web',
+        cargo: 'Diseño gráfico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -440,12 +439,6 @@ export default {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Edward Leonardo Pico Cabra',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
   },
