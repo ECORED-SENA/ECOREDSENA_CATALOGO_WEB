@@ -19,18 +19,18 @@
         .row.justify-content-start.align-items-center.ps-3
           .col-lg-6        
             ul.lista-ul--color      
-              li 
-                i.lista-ul__vineta
-                p.mb-0 Palabras clave 
-              li 
-                i.lista-ul__vineta
-                p.mb-0 Periodos de tiempo 
-              li 
-                i.lista-ul__vineta
-                p.mb-0 Etapas 
-              li 
-                i.lista-ul__vineta
-                p.mb-0 Fases             
+              li
+                i.lista-ul__vineta.txt--green
+                | Palabras clave 
+              li
+                i.lista-ul__vineta.txt--green
+                |  Periodos de tiempo 
+              li
+                i.lista-ul__vineta.txt--green
+                | Etapas 
+              li
+                i.lista-ul__vineta.txt--green
+                | Fases             
 
     separador
     #t_11_1.titulo-segundo.color-acento-contenido
@@ -64,16 +64,16 @@
             p Las líneas del tiempo están conformados por cuatro componentes básicos:
             ul.lista-ul.mb-4
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Fechas: Marcar cuando un evento específico tiene lugar en una línea del tiempo.
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Descripciones: Describir un evento determinado.
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Encabezados (opcionales): Aportan más contexto en una línea del tiempo cuando se los agrega junto con una descripción.
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Imágenes (optativas): Añaden interés gráfico e información adicional.
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -179,16 +179,16 @@
             p Las líneas del tiempo están conformados por cuatro componentes básicos:
             ul.lista-ul.mb-4
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Fechas: Marcar cuando un evento específico tiene lugar en una línea del tiempo.
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Descripciones: Describir un evento determinado.
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Encabezados (opcionales): Aportan más contexto en una línea del tiempo cuando se los agrega junto con una descripción.
               li 
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Imágenes (optativas): Añaden interés gráfico e información adicional.
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center

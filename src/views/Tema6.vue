@@ -21,20 +21,20 @@
 
         ul.lista-ul--color.ps-3
           li
-            i.lista-ul__vineta
-            p.mb-0 Tópicos y subtópicos
+            i.lista-ul__vineta.txt--green
+            | Tópicos y subtópicos
           li
-            i.lista-ul__vineta
-            p.mb-0 Secuencia, sucesos o casos
+            i.lista-ul__vineta.txt--green
+            | Secuencia, sucesos o casos
           li
-            i.lista-ul__vineta
-            p.mb-0 Secciones
+            i.lista-ul__vineta.txt--green
+            | Secciones
           li
-            i.lista-ul__vineta
-            p.mb-0 Procedimientos
+            i.lista-ul__vineta.txt--green
+            | Procedimientos
           li
-            i.lista-ul__vineta
-            p.mb-0 Narraciones o historias
+            i.lista-ul__vineta.txt--green
+            | Narraciones o historias
 
 
     separador
@@ -73,13 +73,13 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-0
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Título o subtítulo de la temática que se aborda en las diapositivas
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se permite un máximo de 8 diapositivas.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Por cada diapositiva debe ir un texto de máximo 80 palabras.
 
 
@@ -187,13 +187,13 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-0
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Título o subtítulo de la temática que se aborda en las diapositivas
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se permite un máximo de 8 diapositivas.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Por cada diapositiva debe ir un texto de máximo 80 palabras.
 
 
@@ -343,16 +343,16 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-0
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Título o subtítulo de la temática que se aborda en las diapositivas
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se permite un máximo de 8 diapositivas.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Por cada diapositiva debe ir un texto de máximo 80 palabras.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se debe incluir un título en la navegación de la diapositiva de máximo 3 palabras.
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción del slide de diapositivas

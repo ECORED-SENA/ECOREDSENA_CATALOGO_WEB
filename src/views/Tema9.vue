@@ -49,10 +49,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo 8 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada opción del acordeón debe ir acompañada de un texto de máximo 60 palabras y puede ir acompañado de una  foto o ilustración.
               .tarjeta.color-primario.p-3
                 .row.justify-content-around.align-items-center
@@ -133,10 +133,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo 8 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada opción del acordeón debe ir acompañada de un texto de máximo 60 palabras y puede ir acompañado de una  foto o ilustración.
               .tarjeta.color-primario.p-3
                 .row.justify-content-around.align-items-center
@@ -231,10 +231,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo 8 palabras asociado a un numeral
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada opción del acordeón debe ir acompañada de un texto de máximo 45 palabras y puede ir acompañado de una  foto o ilustración.
               .tarjeta.color-primario.p-3
                 .row.justify-content-around.align-items-center

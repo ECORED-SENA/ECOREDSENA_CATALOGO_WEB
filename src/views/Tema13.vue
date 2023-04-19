@@ -20,31 +20,31 @@
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Definir roles específicos
+                i.lista-ul__vineta.txt--green
+                | Definir roles específicos
               li
-                i.lista-ul__vineta
-                p.mb-0 Aclaraciones y excepciones
+                i.lista-ul__vineta.txt--green
+                | Aclaraciones y excepciones
               li
-                i.lista-ul__vineta
-                p.mb-0 Caracterizaciones
+                i.lista-ul__vineta.txt--green
+                | Caracterizaciones
               li
-                i.lista-ul__vineta
-                p.mb-0 Ventajas y desventajas
+                i.lista-ul__vineta.txt--green
+                | Ventajas y desventajas
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Datos curiosos
+                i.lista-ul__vineta.txt--green
+                | Datos curiosos
               li
-                i.lista-ul__vineta
-                p.mb-0 Explicaciones pequeñas y concretas
+                i.lista-ul__vineta.txt--green
+                | Explicaciones pequeñas y concretas
               li
-                i.lista-ul__vineta
-                p.mb-0 Resultados
+                i.lista-ul__vineta.txt--green
+                | Resultados
               li
-                i.lista-ul__vineta
-                p.mb-0 Estadísticas
+                i.lista-ul__vineta.txt--green
+                | Estadísticas
 
     separador
     #t_13_1.titulo-segundo.color-acento-contenido
@@ -100,10 +100,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo 5 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
             .tarjeta.color-primario.p-3
@@ -195,10 +195,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo 5 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
             .tarjeta.color-primario.p-3
@@ -305,10 +305,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo 5 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
             .tarjeta.color-primario.p-3

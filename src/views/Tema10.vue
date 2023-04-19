@@ -20,25 +20,25 @@
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Tipologías
+                i.lista-ul__vineta.txt--green
+                | Tipologías
               li
-                i.lista-ul__vineta
-                p.mb-0 Etapas
+                i.lista-ul__vineta.txt--green
+                | Etapas
               li
-                i.lista-ul__vineta
-                p.mb-0 Definiciones
+                i.lista-ul__vineta.txt--green
+                | Definiciones
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Procesos
+                i.lista-ul__vineta.txt--green
+                | Procesos
               li
-                i.lista-ul__vineta
-                p.mb-0 Secciones/subtemas
+                i.lista-ul__vineta.txt--green
+                | Secciones/subtemas
               li
-                i.lista-ul__vineta
-                p.mb-0 Nomenclaturas
+                i.lista-ul__vineta.txt--green
+                | Nomenclaturas
 
           p Es útil cuando se abordan temas como normas, decretos, leyes, condiciones etc.
 
@@ -77,10 +77,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo de 4 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto de maximo 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
             .tarjeta.color-primario.p-3
@@ -178,10 +178,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo de 6 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto de maximo sugerido de 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
             .tarjeta.color-primario.p-3
@@ -278,13 +278,13 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo de 6 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Icono asociado al título
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto de maximo sugerido de 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
             .tarjeta.color-primario.p-3

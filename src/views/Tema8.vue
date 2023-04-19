@@ -20,34 +20,34 @@
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Tips
+                i.lista-ul__vineta.txt--green
+                | Tips
               li
-                i.lista-ul__vineta
-                p.mb-0 Datos
+                i.lista-ul__vineta.txt--green
+                | Datos
               li
-                i.lista-ul__vineta
-                p.mb-0 Conceptos clave
+                i.lista-ul__vineta.txt--green
+                | Conceptos clave
               li
-                i.lista-ul__vineta
-                p.mb-0 Principios
+                i.lista-ul__vineta.txt--green
+                | Principios
               li
-                i.lista-ul__vineta
-                p.mb-0 Fundamentos
+                i.lista-ul__vineta.txt--green
+                | Fundamentos
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Causas
+                i.lista-ul__vineta.txt--green
+                | Causas
               li
-                i.lista-ul__vineta
-                p.mb-0 Consecuencias /Efectos
+                i.lista-ul__vineta.txt--green
+                | Consecuencias /Efectos
               li
-                i.lista-ul__vineta
-                p.mb-0 Ventajas
+                i.lista-ul__vineta.txt--green
+                | Ventajas
               li
-                i.lista-ul__vineta
-                p.mb-0 Desventajas
+                i.lista-ul__vineta.txt--green
+                | Desventajas
 
 
     separador
@@ -121,13 +121,13 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto e ilustrativo (cuando aplica).
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada tarjeta debe ir acompañada de un texto corto de máximo 35 palabras que acompañe a una  foto o ilustración.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se permiten máximo 8 tarjetas por carrusel.
               .tarjeta.color-primario.p-3
                 .row.justify-content-around.align-items-center

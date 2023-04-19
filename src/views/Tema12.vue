@@ -20,25 +20,25 @@
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Procesos
+                i.lista-ul__vineta.txt--green
+                | Procesos
               li
-                i.lista-ul__vineta
-                p.mb-0 Secuencias
+                i.lista-ul__vineta.txt--green
+                | Secuencias
               li
-                i.lista-ul__vineta
-                p.mb-0 Tipificaciones
+                i.lista-ul__vineta.txt--green
+                | Tipificaciones
           .col-lg-6
             ul.lista-ul--color
               li
-                i.lista-ul__vineta
-                p.mb-0 Secciones
+                i.lista-ul__vineta.txt--green
+                | Secciones
               li
-                i.lista-ul__vineta
-                p.mb-0 Criterios
+                i.lista-ul__vineta.txt--green
+                | Criterios
               li
-                i.lista-ul__vineta
-                p.mb-0 Clasificaciones
+                i.lista-ul__vineta.txt--green
+                | Clasificaciones
 
           p Cuenta con nomenclatura en cada uno de los párrafos con literales o numerales, así que también puede usarse si contamos con un listado.
 
@@ -106,10 +106,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto de máximo 6 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada bloque debe ir acompañado de un texto corto de máximo 50 palabras y de una  foto o ilustración.
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
@@ -241,10 +241,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto e ilustrativo (cuando aplica).
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center

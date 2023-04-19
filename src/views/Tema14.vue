@@ -9,7 +9,7 @@
 
     #t_14_1.titulo-segundo.color-acento-contenido
       h2 14.1 Encabezados
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Estilo de título para el índice de contenidos:             
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--green] Estilo de título para el índice de contenidos:             
     .row.justify-content-center.align-items-center
       .col-11
         .titulo-principal.color-acento-botones
@@ -70,19 +70,19 @@
         h4 Listado ordenado cuadro color
         ol.lista-ol--cuadro
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span 1
             | Item lista ordenada 1
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span 2
             | Item lista ordenada 2
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span a
             | Item lista ordenada a
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span b
             | Item lista ordenada b
 
@@ -90,19 +90,19 @@
         h4 Listado ordenado cuadro color + separadores
         ol.lista-ol--cuadro.lista-ol--separador
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span 1
             | Item lista ordenada 1
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span 2
             | Item lista ordenada 3
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span a
             | Item lista ordenada a
           li 
-            .lista-ol--cuadro__vineta
+            .lista-ol--cuadro__vineta.v--green
               span b
             | Item lista ordenada b
 
@@ -131,42 +131,42 @@
         h4 Listado no ordenado color
         ul.lista-ul--color
           li 
-            i.fas.fa-brain
+            i.fas.fa-brain.txt--green
             | Item lista no ordenada
           li
             ul
               li 
-                i.fas.fa-bug
+                i.fas.fa-bug.txt--green
                 | Item lista no ordenada
               li 
-                i.fas.fa-car-side
+                i.fas.fa-car-side.txt--green
                 | Item lista no ordenada
           li 
-            i.fas.fa-compass
+            i.fas.fa-compass.txt--green
             | Item lista no ordenada
           li 
-            i.fas.fa-eye
+            i.fas.fa-eye.txt--green
             | Item lista no ordenada 
 
       .col-sm
         h4 Listado no ordenado color + separadores
         ul.lista-ul--color.lista-ul--separador
           li 
-            i.fas.fa-feather
+            i.fas.fa-feather.txt--green
             | Item lista no ordenada
           li.pb-0
             ul
               li 
-                i.fas.fa-cookie
+                i.fas.fa-cookie.txt--green
                 | Item lista no ordenada
               li 
-                i.fas.fa-hat-wizard
+                i.fas.fa-hat-wizard.txt--green
                 | Item lista no ordenada
           li 
-            i.fas.fa-hippo
+            i.fas.fa-hippo.txt--green
             | Item lista no ordenada
           li 
-            i.fas.fa-kiwi-bird
+            i.fas.fa-kiwi-bird.txt--green
             | Item lista no ordenada                                                          
     .row.justify-content-center.mb-5
       .col-auto
@@ -408,7 +408,7 @@
     separador
     #t_14_9.titulo-segundo.color-acento-contenido
       h2 14.9 Llamados a la acción
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Botón modal 
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--green] Botón modal 
     .row
       .col-auto
         a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
@@ -435,7 +435,7 @@
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Modal.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
 
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--orange] Recursos y enlaces externos
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--green] Recursos y enlaces externos
     .row
       .col-lg-6
         a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")

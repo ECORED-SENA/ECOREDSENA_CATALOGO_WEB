@@ -19,10 +19,10 @@
 
         ul.lista-ul--color.ps-3
           li
-            i.lista-ul__vineta
+            i.lista-ul__vineta.txt--green
             | Infografía con puntos calientes
           li
-            i.lista-ul__vineta
+            i.lista-ul__vineta.txt--green
             | Infografía con ventanas modales
 
 
@@ -58,16 +58,16 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Título corto de máximo 7 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | #[strong Texto descriptivo]: Colocar una breve descripción del tema que se aborda en la infografía.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | #[strong Imagen de referencia]: Describir y/o colocar una imagen de referencia, de la infografía solicitada.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | #[strong Puntos calientes]: Título y texto que se despliega en cada punto interactivo. #[strong (MÁXIMO 10 PUNTOS INTERACTIVOS)]
 
 
@@ -162,16 +162,16 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Título corto de máximo 8 palabras
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | #[strong Texto descriptivo]: Colocar una breve descripción del tema que se aborda en la infografía.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | #[strong Imagen de referencia]: Describir y/o colocar una imagen de referencia, de la infografía solicitada.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | #[strong Puntos modales]: Título y texto que se despliega en cada punto interactivo. #[strong (MÁXIMO 12 PUNTOS MODALES)]
 
 

@@ -45,35 +45,35 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos")
             ul.lista-ul.mb-0
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | El aprendiz recibe una retroalimentación cuando responde de manera correcta o incorrecta cada pregunta.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70% de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Las preguntas pueden ser de los siguientes tipos: Opción múltiple única respuesta, Falso o verdadero y opción múltiple con múltiple respuesta.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Por pregunta deben existir máximo 4 opciones de respuesta.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | El enunciado de cada pregunta debe contener máximo 35 palabras.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | La opción de respuesta debe contener máximo 20 palabras.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | El mensaje final de la actividad debe contener máximo 25 palabras.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | La retroalimentación de cada pregunta debe contener máximo 20 palabras.
 
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se permite un máximo de 12 preguntas.
 
             p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de esta actividad
@@ -117,19 +117,19 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos")
             ul.lista-ul.mb-0
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70% de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se permiten un máximo de 6 enunciados.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada enunciado debe contener máximo 20 palabras.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada término que se debe relacionar a un enunciado debe tener máximo 3 palabras.
 
 
@@ -187,24 +187,24 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos")
             ul.lista-ul.mb-0
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Las indicaciones, el mensaje de correcto e incorrecto debe estar la redacción en segunda persona.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Al final de la actividad se muestra una retroalimentación de felicitación si logra el 70% de respuestas correctas o retroalimentación de mejora si es inferior a este porcentaje.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se deben resaltar en amarillo las palabras del enunciado que deben completarse. Tenga en cuenta que cada espacio debe contener una sola palabra.
 
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Se permiten un máximo de 7 enunciados.
 
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada enunciado debe contener máximo 20 palabras.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada término que se debe escribir en el espacio en blanco debe tener máximo 1 sola palabra.
 
 

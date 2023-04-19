@@ -26,16 +26,16 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Título corto  (máximo 10 palabras)
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | <b>Texto descriptivo:</b> &nbsp;colocar una breve descripción del tema que se aborda en la infografía. (párrafo corto 40 palabras aprox)
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | <b>Imagen de referencia:</b> &nbsp;Describir y/o colocar una imagen de referencia, de la infografía solicitada.
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Incluir cualquier observación o solicitud específica frente al diseño gráfico de la infografía.
 
 
@@ -60,16 +60,16 @@
             p #[strong 1) Definir un tema.]
               ul.lista-ul.ps-4
                 li
-                  i.fas.fa-angle-right.txt--orange
+                  i.fas.fa-angle-right.txt--green
                   | Explicación de un concepto.
                 li
-                  i.fas.fa-angle-right.txt--orange
+                  i.fas.fa-angle-right.txt--green
                   | Explicación de una tecnología o proceso.
                 li
-                  i.fas.fa-angle-right.txt--orange
+                  i.fas.fa-angle-right.txt--green
                   | Representación de datos estadísticos, biográficos, geográficos, etc.
                 li
-                  i.fas.fa-angle-right.txt--orange
+                  i.fas.fa-angle-right.txt--green
                   | Resumen de un documento.
 
               .hr--line

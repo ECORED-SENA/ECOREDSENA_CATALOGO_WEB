@@ -35,10 +35,10 @@
           .tarjeta.clr--gris.p-4(titulo="Requerimientos de información")
             ul.lista-ul.mb-4
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Titulo corto e ilustrativo (cuando aplica).
               li
-                i.fas.fa-angle-right.txt--orange
+                i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una  foto o ilustración.
 
             .tarjeta.color-primario.p-3
