@@ -7,7 +7,7 @@
         span 2
       h1 Infografía interactiva
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/presentaciones/presentaciones.svg", alt="alt")
@@ -25,9 +25,11 @@
             i.lista-ul__vineta.txt--green
             | Infografía con ventanas modales
 
+    separador
 
-
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1
+    
+    .titulo-segundo.color-acento-contenido
       h2 2.1 Infografía puntos calientes
 
     ImagenInfografica.color-primario
@@ -70,23 +72,6 @@
                 i.fas.fa-angle-right.txt--green
                 | #[strong Puntos calientes]: Título y texto que se despliega en cada punto interactivo. #[strong (MÁXIMO 10 PUNTOS INTERACTIVOS)]
 
-
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de la infografía.
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Infografía interactiva (Puntos Calientes)
-                      p.mb-0.text-small Formato de Diseño Instruccional para la creación de infografías interactivas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1uZnIzJU0_WorBlLCKfkwbKVmgS8uBeTVv_Y0sG647Fs/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span Infografía puntos calientes
@@ -118,19 +103,12 @@
               h5.mb-3.text-center Adaptación
               p.mb-0.text-center Comienza el proceso de control sobre las acciones, puede concentrarse en otras situaciones, además del evento vivido, orienta interés por el futuro, se reactiva la socialización y puede descubrir nuevos rumbos a partir de la experiencia vivida.
 
-    .row.justify-content-center.mt-5
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1rk5d28KabWs8h4GMSPJWhBcTuobXmjJS/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2
+    
+    .titulo-segundo.color-acento-contenido
       h2 2.2  Infografía ventanas modales
-
 
     ImagenInfograficaB.color-primario
       template(v-slot:imagen)
@@ -173,23 +151,6 @@
               li
                 i.fas.fa-angle-right.txt--green
                 | #[strong Puntos modales]: Título y texto que se despliega en cada punto interactivo. #[strong (MÁXIMO 12 PUNTOS MODALES)]
-
-
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de la infografía.
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Infografía interactiva (Modales)
-                      p.mb-0.text-small Formato de Diseño Instruccional para la creación de infografías interactivas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1i-E9Iudyt63eEl8Iv5tQnbMPFjopdz-wrhnk4S0p4yQ/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -333,13 +294,6 @@
                     figure
                       img(src='@/assets/curso/temas/infografia/mod_12.png', alt='imagen decorativa')
 
-    .row.justify-content-center.my-5
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1l5xILu9ounwutyxi5CSTytllgiWheuyX/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
 </template>
 
 <script>

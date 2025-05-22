@@ -38,24 +38,6 @@
                 i.fas.fa-angle-right.txt--green
                 | Incluir cualquier observación o solicitud específica frente al diseño gráfico de la infografía.
 
-
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de la infografía.
-
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Infografía estática
-                      p.mb-0.text-small Formato de Diseño Instruccional para la creación de infografías estáticas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1wD3oByzOhsH4c0oWnUb4DWNBc0hmCOhrMDWG0-nCtyo/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
           .tarjeta.clr--gris.p-4(titulo="Recomendaciones del diseñador")
             p #[strong 1) Definir un tema.]
               ul.lista-ul.ps-4
@@ -86,7 +68,9 @@
               p.mb-0 #[strong 7) Los gráficos, diagramas, iconos y demás elementos planteados deben ser claros y específicos.]
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido
+
+    #t_1_1
+    .titulo-segundo.color-acento-contenido
       h2 Ejemplos de infografías estáticas
 
     .titulo-sexto.color-acento-contenido
@@ -96,16 +80,6 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10
         img(src="@/assets/curso/temas/infografia/info1.png")
-
-    .row.justify-content-center.mb-5
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1eXU5VbhNu8QbPrB-FyskQ_X8tAIbkuHR/view" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
-
 
     .titulo-sexto.color-acento-contenido
       h5 Ejemplo #2
@@ -128,16 +102,6 @@
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Llamado_accion_infografias.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
-
-
-    .row.justify-content-center.mb-5
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1-3pXt71H1Wb1qrak2PXb7MvU5ZaYW2VK/view" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
 
 </template>
 

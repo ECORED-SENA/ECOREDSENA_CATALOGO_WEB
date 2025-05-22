@@ -7,7 +7,7 @@
         span 11
       h1 Líneas de tiempo
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/linea_tiempo/linea_tiempo.svg", alt="alt")
@@ -33,7 +33,9 @@
                 | Fases             
 
     separador
-    #t_11_1.titulo-segundo.color-acento-contenido
+
+    #t_11_1
+    .titulo-segundo.color-acento-contenido
       h2 11.1 Línea de tiempo - vertical
     
     LineaTiempoE.color-primario
@@ -52,6 +54,7 @@
             figcaption Leyenda de la imagen      
         .col-lg-6.mb-4.mb-lg-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/LineaTiempoE.txt')" target="_blank" type="application/pdf")
@@ -74,20 +77,7 @@
                 | Encabezados (opcionales): Aportan más contexto en una línea del tiempo cuando se los agrega junto con una descripción.
               li 
                 i.fas.fa-angle-right.txt--green
-                | Imágenes (optativas): Añaden interés gráfico e información adicional.
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - línea de tiempo
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de una línea de tiempo. 
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1f4bPp_jRW5aIfr-p7DORAtjSh_EB787rw67z0VBF2ew/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download   
+                | Imágenes (optativas): Añaden interés gráfico e información adicional.  
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -95,7 +85,7 @@
 
     .row
       .col-12
-        LineaTiempoE.color-acento-contenido.mb-5
+        LineaTiempoE.color-acento-contenido
           .row(titulo="1948")
             .col-lg-2.mb-3.mb-lg-0
               figure
@@ -124,18 +114,13 @@
                 img.img200(src='@/assets/curso/temas/linea_tiempo/lt_vert_04.svg', alt='Texto que describa la imagen')
             .col-lg-10.mb-4.mb-lg-0
               h4 Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas
-              p Los ODS son 17 objetivos que plantean líneas de acción mundiales para que alrededor de temáticas que se consideran claves, los países y las empresas formulen planes y proyectos. En este sentido, en el objetivo cuatro se hace mención del tema de la inclusión cuando se plantea que debe ser un propósito garantizar una educación inclusiva, equitativa y de calidad para promover oportunidades de aprendizaje. 
-    
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1d8bzZ4-G9sGMdbtpHMS3Q-xVXlvythoQ/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra        
+              p Los ODS son 17 objetivos que plantean líneas de acción mundiales para que alrededor de temáticas que se consideran claves, los países y las empresas formulen planes y proyectos. En este sentido, en el objetivo cuatro se hace mención del tema de la inclusión cuando se plantea que debe ser un propósito garantizar una educación inclusiva, equitativa y de calidad para promover oportunidades de aprendizaje.    
 
     separador
-    #t_11_2.titulo-segundo.color-acento-contenido
+
+    #t_11_2
+    
+    .titulo-segundo.color-acento-contenido
       h2 11.2 Línea de tiempo - horizontal
 
     .tarjeta.tarjeta--gris.p-4
@@ -168,10 +153,12 @@
             figure
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
               figcaption Leyenda de la imagen
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/LineaTiempoC.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones       
@@ -189,20 +176,7 @@
                 | Encabezados (opcionales): Aportan más contexto en una línea del tiempo cuando se los agrega junto con una descripción.
               li 
                 i.fas.fa-angle-right.txt--green
-                | Imágenes (optativas): Añaden interés gráfico e información adicional.
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - línea de tiempo
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de una línea de tiempo. 
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1f4bPp_jRW5aIfr-p7DORAtjSh_EB787rw67z0VBF2ew/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download   
+                | Imágenes (optativas): Añaden interés gráfico e información adicional. 
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -275,14 +249,7 @@
             p Los emprendimientos no son ajenos a la realidad de esta era digital, ya que muchos han ampliado sus canales de ventas y ya no solo tienen un espacio físico, sino también uno virtual y, en muchos casos, gratuitos como en redes sociales donde se pueden cerrar negocios por medio de pantallas y transacciones digitales. 
             p Las barreras de las distancias empiezan a desvanecerse y aparecen nuevas necesidades de aprendizaje y adaptación a estilos, negociaciones, habilidades blandas y digitales, entre otras. 
             p La era digital va a dar mucho de qué hablar y un emprendedor que analiza su entorno sabe que debe prepararse para todos estos cambios y apropiarse de estas nuevas habilidades.
-    
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1oqnS7wrYfximsJfBX5I7WobKelEWW9k1/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra    
+ 
 </template>
 
 <script>

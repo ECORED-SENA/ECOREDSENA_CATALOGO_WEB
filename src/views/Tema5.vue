@@ -7,7 +7,7 @@
         span 5
       h1 Actividades didácticas
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/actividad/actividad_didactica.svg", alt="alt")
@@ -19,10 +19,11 @@
 
         p Son actividades que no generan evaluación y que funcionarán independiente del LMS.
 
-
     separador
 
-    #t_5_1.titulo-segundo.color-acento-contenido
+    #t_5_1
+    
+    .titulo-segundo.color-acento-contenido
       h2 5.1 Cuestionarios
 
     .tarjeta.clr--gris.p-5.mb-4
@@ -38,8 +39,7 @@
             span Realizar
             i.fas.fa-puzzle-piece
 
-
-    .row.mb-5
+    .row
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos")
@@ -76,29 +76,14 @@
                 i.fas.fa-angle-right.txt--green
                 | Se permite un máximo de 12 preguntas.
 
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de esta actividad
+    separador
 
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Cuestionario
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo cuestionario.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1aKdgBE4ngvHjNUvPGqEyIDbvNYuqp-a_LwQnX6UjQUQ/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
-
-
-    #t_5_2.titulo-segundo.color-acento-contenido
+    #t_5_2
+    
+    .titulo-segundo.color-acento-contenido
       h2 5.2 Relación de términos
 
-    #t_5_3
-    .tarjeta.clr--gris.p-5.mb-2
+    .tarjeta.clr--gris.p-5.mb-4
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
           img(src="@/assets/curso/temas/actividad/actividad_01.png").mb-3
@@ -110,8 +95,7 @@
             span Realizar
             i.fas.fa-puzzle-piece
 
-
-    .row.mb-5
+    .row
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos")
@@ -132,28 +116,13 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada término que se debe relacionar a un enunciado debe tener máximo 3 palabras.
 
-
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de esta actividad
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Relación de términos
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo relación de términos
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/12FF2I2EybN0AKoU5n-_PbNK3GN4ixjnbiv3YB7Qpwac/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
-
-    #t_5_3.titulo-segundo.color-acento-contenido
-      h2 5.3 Completar frases
+    separador
 
     #t_5_3
+    
+    .titulo-segundo.color-acento-contenido
+      h2 5.3 Completar frases
+
     .tarjeta.clr--gris.p-5.mb-4
       .row.justify-content-around.align-items-center
         .col-8.col-lg-5.mb-4.mb-md-0
@@ -181,7 +150,7 @@
             span Realizar
             i.fas.fa-puzzle-piece
 
-    .row.mb-5
+    .row
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
           .tarjeta.clr--gris.p-4(titulo="Requerimientos")
@@ -207,29 +176,13 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada término que se debe escribir en el espacio en blanco debe tener máximo 1 sola palabra.
 
+    separador
+    
+    #t_5_4
 
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción de esta actividad
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Relación de términos
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo completar espacios
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-YHtyjZ-8q4lfvD-bIXS-pneDhj6nYsq72-OYaKoVnw/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
-
-
-    #t_5_4.titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido
       h2 5.4 Diálogos (Relación de términos en un diálogo)
 
-    #t_5_4
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Greeting the doctor. / Saludando al doctor.
@@ -239,28 +192,6 @@
         a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Dialogo.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
 
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Diálogo Ingles/Español
-                  p.text-small.mb-0 Formato de Diseño Instruccional para la creación de actividades didácticas tipo dialogo.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1oQ27-xOnozTqJxihAnnBHwbMWn4cgNp-6WbQXjvt-hQ/edit?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
-      .col-lg-4
-        a.anexo(href="https://drive.google.com/file/d/1qoDmgphh4r-TxVu_M1ZVYg_CODgNteJE/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
 </template>
 
 <script>

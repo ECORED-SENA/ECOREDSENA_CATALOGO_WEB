@@ -7,7 +7,7 @@
         span 6
       h1 Slider de diapositivas
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/sliders/Diapositivas.svg", alt="alt")
@@ -36,9 +36,11 @@
             i.lista-ul__vineta.txt--green
             | Narraciones o historias
 
-
     separador
-    #t_6_1.titulo-segundo.color-acento-contenido
+
+    #t_6_1
+    
+    .titulo-segundo.color-acento-contenido
       h2 6.1 Slide navegación simple
 
     p.mb-4 Provee mayor espacio para la explicación textual así que es óptima para la definición de conceptos completos y extensos. No se asocia a pasos específicos o tipificaciones sino que puede abarcar una temática completa dividida en secciones.
@@ -82,28 +84,11 @@
                 i.fas.fa-angle-right.txt--green
                 | Por cada diapositiva debe ir un texto de máximo 80 palabras.
 
-
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción del slide de diapositivas
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Slide diapositivas (Simple)
-                      p.mb-0.text-small Formato de Diseño Instruccional para la creación de infografías interactivas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1rW0rAr-l4yHGMhfiDchdQOh66LqaMxK9wKRWxwVIvv8/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span navegación simple
 
-    .slyderB_bg_01.px-5.py-3.mb-5
+    .slyderB_bg_01.px-5.py-3
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.my-lg-4
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative
@@ -140,15 +125,8 @@
             figure
               img(src='@/assets/curso/temas/sliders/sliderB_04.svg')
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1SphPoasXbUQjw9fD5I3fgugAeEQWRScZ/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
+
     #t_6_2.titulo-segundo.color-acento-contenido
       h2 6.2 Slide navegación con numerales.
 
@@ -176,6 +154,7 @@
               figcaption Leyenda de la imagen
           .col-md-6.mb-4.mb-md-0
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Slide_navegacion_con_numerales.txt')" target="_blank" type="application/pdf")
@@ -196,27 +175,10 @@
                 i.fas.fa-angle-right.txt--green
                 | Por cada diapositiva debe ir un texto de máximo 80 palabras.
 
-
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción del slide de diapositivas
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Slide diapositivas (Títulos)
-                      p.mb-0.text-small Formato de Diseño Instruccional para la creación de infografías interactivas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1g6fMSTR-6mclIg_S-JgSTZyWKD894kKfSDSaNY63G7c/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span navegación con numerales
-    .p-4.mb-5.pb-0(style='background-color: #F2E6DD; border-top-left-radius: 20px; border-top-right-radius: 20px;')
+    .p-4.pb-0(style='background-color: #F2E6DD; border-top-left-radius: 20px; border-top-right-radius: 20px;')
       PasosB.color-acento-botones
         .row(titulo="")
           .col-md-12.mb-4.mb-md-0
@@ -268,20 +230,12 @@
             figure
               img(src='@/assets/curso/temas/sliders/pasos_10.svg', alt='Texto que describa la imagen')
 
-            //.row.justify-content-center
-              .col-auto
-                a.anexo(href="https://drive.google.com/file/d/1SphPoasXbUQjw9fD5I3fgugAeEQWRScZ/view?usp=sharing" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-pdf.svg")
-                  .anexo__texto
-                    p Formato instruccional - muestra
-
     separador
+
     #t_6_3.titulo-segundo.color-acento-contenido
       h2 6.3 Slide navegación con títulos.
 
     p.mb-4 Es para textos un poco más extensos que en el tipo anterior y la imagen puede ser más ilustrativa. Ideal para explicar fases, etapas, acontecimientos (línea de tiempo) o procedimientos. Cada diapositiva tendrá un nombre referente a su contenido. Se recomienda usar máximo 10 pasos y mínimo 4.
-
 
     h3 Opción 1
 
@@ -355,22 +309,6 @@
                 i.fas.fa-angle-right.txt--green
                 | Se debe incluir un título en la navegación de la diapositiva de máximo 3 palabras.
 
-            p.mb-4 A continuación se presenta el formato instruccional el cual cuenta con las especificaciones necesarias para la producción del slide de diapositivas
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Slide diapositivas (Títulos)
-                      p.mb-0.text-small Formato de Diseño Instruccional para la creación de infografías interactivas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1g6fMSTR-6mclIg_S-JgSTZyWKD894kKfSDSaNY63G7c/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span navegación con títulos
@@ -430,14 +368,6 @@
           p Cuando los microchips empezaron a ser más conocidos y usados, la electrónica se extendió de manera más rápida y surgieron computadores, localizadores, elementos digitales y poco a poco fueron avanzando hasta llegar a tener diversos tamaños como por ejemplo en teléfonos donde se integran tecnologías de audio y video, con procesadores de textos, sistemas operativos que permiten realizar procesos para los cuales antes se necesitaban varios dispositivos.
           p Hoy un teléfono nos permite escanear un documento y enviarlo por correo en poco tiempo pero, además, permite que emprendedores de esta era puedan realizar un diseño de un banner con una simple aplicación móvil, subirlo a una red social o enviarlo por diversos sistemas de mensajería a muchos clientes.
           p Estamos en una era digital donde la información y la tecnología están al alcance de todos y es importante reflexionar sobre los aprendizajes que se vienen en los próximos años.
-
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1oFq1y5Qyzo-C9TucftYqYORPB3ogW5Dy/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
 
 </template>
 

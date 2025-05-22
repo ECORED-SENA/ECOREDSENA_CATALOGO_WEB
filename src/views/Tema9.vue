@@ -22,6 +22,7 @@
         p Su uso se recomienda cuando las secciones están estrechamente relacionadas con la introducción y se hace necesario que esta esté hilada constantemente.
 
     separador
+
     #t_9_1.titulo-segundo.color-acento-contenido
       h2 9.1 Acordeón (con viñeta en la izquierda) - tipo 1
 
@@ -39,10 +40,12 @@
         figure
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
+
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/AcordionA.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -54,24 +57,11 @@
               li
                 i.fas.fa-angle-right.txt--green
                 | Cada opción del acordeón debe ir acompañada de un texto de máximo 60 palabras y puede ir acompañado de una  foto o ilustración.
-              .tarjeta.color-primario.p-3
-                .row.justify-content-around.align-items-center
-                  .col-auto
-                    img(src="@/assets/template/document.svg").img65
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        h4.mb-1 Formato instruccional - Acordeones
-                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón.
-                      .col-sm-auto
-                        a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
-                          span Descargar
-                          i.fas.fa-file-download
 
     p.mb-4 A continuación, se destacan cuatro ejes principales que tienen que ver con las exigencias de calidad para el cliente, la mejora continua, satisfacción del cliente y la reglamentación en el cumplimiento de la norma, y en el siguiente recurso se detallan cada una de ellas.
 
     .bg--img_03
-      .row.justify-content-center.mb-4
+      .row.justify-content-center
         .col-lg-4
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/acordeones/acord_A_01.png", alt="alt").img400.m-auto
@@ -93,16 +83,11 @@
               .col-12
                 p.mb-0 Proporciona directrices para verificar la capacidad del sistema para conseguir objetivos de la calidad definidos. Esta norma se puede utilizar internamente para auditar a los proveedores de la organización.
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1I97nKjGfN-HwuZghYmccPQeg0b8OEP1m/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
-    #t_9_2.titulo-segundo.color-acento-contenido
+
+    #t_9_2
+    
+    .titulo-segundo.color-acento-contenido
       h2 9.2 Acordeón (con viñeta en la derecha) - tipo 2
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
@@ -123,10 +108,12 @@
 
         .col-md-6.mb-4.mb-md-0
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/AcordionB.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -138,22 +125,10 @@
               li
                 i.fas.fa-angle-right.txt--green
                 | Cada opción del acordeón debe ir acompañada de un texto de máximo 60 palabras y puede ir acompañado de una  foto o ilustración.
-              .tarjeta.color-primario.p-3
-                .row.justify-content-around.align-items-center
-                  .col-auto
-                    img(src="@/assets/template/document.svg").img65
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        h4.mb-1 Formato instruccional - Acordeones
-                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón.
-                      .col-sm-auto
-                        a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
-                          span Descargar
-                          i.fas.fa-file-download
 
     .row.justify-content-center
       .col-lg-8
+
         p Por lo anterior, se puede hablar de tres fases dentro de todo proceso productivo, las cuales se evidencian en el siguiente recurso de aprendizaje:
 
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta clr--gris")
@@ -177,17 +152,11 @@
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/acordeones/acord_B_01.png", alt="alt").m-auto
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1o4D8dNAl1gVLifWAbT7ut53ALsdZ7iVN/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
+
     #t_9_3.titulo-segundo.color-acento-contenido
       h2 9.3 Acordeón con numeral / pasos
+    
     .row.justify-content-center.align-items-top
       .col-md-6.mb-5.mb-md-0
         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -224,7 +193,6 @@
             a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/LineaTiempoD.txt')" target="_blank" type="application/pdf")
               span Ver código fuente
 
-
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -236,20 +204,6 @@
               li
                 i.fas.fa-angle-right.txt--green
                 | Cada opción del acordeón debe ir acompañada de un texto de máximo 45 palabras y puede ir acompañado de una  foto o ilustración.
-              .tarjeta.color-primario.p-3
-                .row.justify-content-around.align-items-center
-                  .col-auto
-                    img(src="@/assets/template/document.svg").img65
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        h4.mb-1 Formato instruccional - Acordeones
-                        p.text-small.mb-0 Formato de Diseño Instruccional para la creación de un acordeón.
-                      .col-sm-auto
-                        a.boton.color-acento-botones(href="https://docs.google.com/document/d/1ojd75qS-nmacZ1P0AaHxt-56VS9Gezhbf_V-sVsJuH4/edit?usp=sharing" target="_blank")
-                          span Descargar
-                          i.fas.fa-file-download
-
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -272,13 +226,6 @@
       .col-8.col-lg-4
         figure
           img.l(src="@/assets/curso/temas/pasos/pasos_vert_00.png", alt="alt")
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1-45Y5mcNP0l5NFfMO8_wL-BWzpUylpZO/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
 
 </template>
 

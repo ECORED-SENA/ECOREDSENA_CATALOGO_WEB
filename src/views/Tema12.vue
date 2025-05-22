@@ -7,7 +7,7 @@
         span 12
       h1 Rutas - Pasos
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/pasos/pasos.svg", alt="alt")
@@ -43,15 +43,17 @@
           p Cuenta con nomenclatura en cada uno de los párrafos con literales o numerales, así que también puede usarse si contamos con un listado.
 
     separador
-    #t_12_1.titulo-segundo.color-acento-contenido
+
+    #t_12_1
+    .titulo-segundo.color-acento-contenido
       h2 12.1 Pasos - verticales
+    
     .row.justify-content-between.align-items-center
       .col-md-6.mb-5.mb-md-0
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Praesent luctus")
             .col-md-6.mb-4.mb-md-0
               p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
             .col-md-6
               figure
                 img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
@@ -72,6 +74,7 @@
                 figcaption Leyenda de la imagen
             .col-md-6.mb-4.mb-md-0
               p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        
         .row.justify-content-end.mb-5.me-3
           .col-auto
             a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/LineaTiempoD.txt')" target="_blank" type="application/pdf")
@@ -111,25 +114,12 @@
               li
                 i.fas.fa-angle-right.txt--green
                 | Cada bloque debe ir acompañado de un texto corto de máximo 50 palabras y de una  foto o ilustración.
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Rutas / pasos
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de rutas o pasos.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/15qIHOTAMCC5bf9U7__LSSzS_hETDQ4zb4yjiaTuaJNM/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo 1
       span pasos - verticales
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-8.col-lg-4
         figure
           img(src="@/assets/curso/temas/pasos/pasos_vert_00.png", alt="alt")
@@ -146,13 +136,7 @@
           p(numero="5" titulo="Validez") Los datos deben estar en el mismo formato original independientemente de la ubicación, de modo que todos coincidan cuando ejecute el proceso de validación.
 
           p(numero="6" titulo="Disponibilidad") Al momento de solicitar la información, esta debe estar disponible.
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1-45Y5mcNP0l5NFfMO8_wL-BWzpUylpZO/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
+
     separador
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo 2
@@ -160,7 +144,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        PasosA.color-acento-contenido.mb-5(tipo="l")
+        PasosA.color-acento-contenido(tipo="l")
           .row
             .col-lg
               h3 Modelar
@@ -200,15 +184,12 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/pasos/pasos_vert_05.svg', alt='').img125
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/13Aj82jzMiTuljlxV6ADWMe2kZyBCrjpF/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
+
     separador
-    #t_12_2.titulo-segundo.color-acento-contenido
+
+    #t_12_2
+    
+    .titulo-segundo.color-acento-contenido
       h2 12.2 Pasos - horizontales
 
     .tarjeta.tarjeta--gris.p-4
@@ -231,10 +212,12 @@
             figure
               img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
               figcaption Leyenda de la imagen
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/PasosB.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -246,25 +229,12 @@
               li
                 i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto corto que acompañe a una  foto o ilustración.
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Rutas / pasos
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de rutas o pasos.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/15qIHOTAMCC5bf9U7__LSSzS_hETDQ4zb4yjiaTuaJNM/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span pasos - horizontales
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center
       .col-lg-12
         .crd.clr--gray.brd--rad.p-4
           PasosB.color-acento-contenido
@@ -331,14 +301,6 @@
               .col-lg-3.col-6
                 figure
                   img(src='@/assets/curso/temas/pasos/pasos_hor_05.svg', alt='')
-
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1nKNUdthLDR9MLremBiRTc6ShYEK9C1yM/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
 
 </template>
 

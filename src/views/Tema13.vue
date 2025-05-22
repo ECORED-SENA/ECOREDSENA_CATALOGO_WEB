@@ -7,7 +7,7 @@
         span 13
       h1 Tarjetas
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/tarjetas/tarjetas.svg", alt="alt")
@@ -47,6 +47,7 @@
                 | Estadísticas
 
     separador
+
     #t_13_1.titulo-segundo.color-acento-contenido
       h2 13.1 Tarjetas - avatar
 
@@ -90,10 +91,12 @@
 
           h3.text-center Intuition important
           p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_avatar.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -106,26 +109,12 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Tarjetas
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
-      span tarjetas - avatar
+      span tarjetas - avatar tipo a
 
-    .bg_img_01
-      .row.justify-content-center.mb-5
+    .bg_img_01.mb-5
+      .row.justify-content-center
         .col-lg-4.mb-4.mb-lg-0
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
@@ -147,17 +136,43 @@
                 img(src="@/assets/curso/temas/tarjetas/tar_avatar_ver_03.png", alt="alt").img90.m-auto
             h4.text-center Formas de trabajar
             p.text-center.mb-0 Se centran en estructurar equipos agiles y de respuesta a oportuna, exclusivamente para los clientes, haciendo referencia a las tendencias de #[i marketing], teniendo en cuenta las perspectivas de medición y los canales en los que desarrollan.
-
+    
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Ejemplo
+      span tarjetas - avatar tipo b
     .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/14Bc2_tyVPj_FVjj7vMUuQ7sBVbImYEzn/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.color-primario.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 #[b Resolución 0773 de 2020]
+              p.text-center.mb-0 Establece las medidas de bioseguridad para el sector pecuario.
+      .col-10.col-md-6.col-lg-4(data-aos="fade-left")
+        .tarjeta-avatar
+          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.color-primario.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 #[b Resolución 068167 de 2020]
+              p.text-center.mb-0 Define los requisitos para la generación de Buenas Prácticas Ganaderas (BPG) en la producción de carne de bovinos y bufalinos.
 
     separador
-    #t_13_2.titulo-segundo.color-acento-contenido
+
+    #t_13_2
+    
+    .titulo-segundo.color-acento-contenido
       h2 13.2 Tarjetas - conectadas
 
     .tarjeta--container.row
@@ -185,10 +200,12 @@
 
         h2.text-center Sterility leads to<br>susceptibility
         p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Tarjetas_conectadas.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -201,25 +218,11 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Tarjetas
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span tarjetas - conectadas
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-9.position-relative
         h3.mb-4.text-center.txt--purpura Elementos determinantes para el análisis - CAC
         .avatar
@@ -250,15 +253,8 @@
               h5 Comunicación correcta de los resultados
               p En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información.
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1NRjGKQKvyL9QIlRd3EYYCVFQISBsuK4v/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
+
     #t_13_3.titulo-segundo.color-acento-contenido
       h2 13.3 Tarjetas - animadas
 
@@ -295,10 +291,12 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h1 John Doe
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_animadas.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -311,25 +309,11 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada tarjeta debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una foto o ilustración.
 
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Tarjetas
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de tarjetas.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1jVBfOd5V9GKLcxlabgO5ugooc6IHyGn5-JTTdtEkPMo/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span tarjetas - animadas
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -357,16 +341,11 @@
             h4.mb-3 Reporte de ventas mensuales
             p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1fndILIRLCGkpf9cuuE8Ah5DB5F_iJwhX/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
-    #t_13_4.titulo-segundo.color-acento-contenido
+
+    #t_13_4
+    
+    .titulo-segundo.color-acento-contenido
       h2 13.4 Tarjetas con número
 
     .row
@@ -405,6 +384,7 @@
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tarjetas_con_numero.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+
 </template>
 
 <script>

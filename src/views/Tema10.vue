@@ -7,7 +7,7 @@
         span 10
       h1 Pestañas o tabs
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/pestañas/pestañas.svg", alt="alt")
@@ -42,9 +42,11 @@
 
           p Es útil cuando se abordan temas como normas, decretos, leyes, condiciones etc.
 
-
     separador
-    #t_10_1.titulo-segundo.color-acento-contenido
+
+    #t_10_1
+    
+    .titulo-segundo.color-acento-contenido
       h2 10.1 Pestañas verticales
 
     TabsA.color-acento-botones
@@ -67,10 +69,12 @@
               strong user style sheets
               |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsA.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -83,23 +87,10 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto de maximo 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Pestañas o tabs
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1QOVDmKmX036aLaKuyGMBevxp_fjucW5ShQiXjb3ONtM/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span pestañas verticales
+    
     .row
       .col-lg-8.order-2.order-lg-1
         TabsA.color-acento-botones.mb-5
@@ -136,16 +127,11 @@
         figure
           img(src="@/assets/curso/temas/pestañas/pestañas_verticales.png", alt="alt", style="width:450px;").m-auto
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1xk7zYRKzXEl5bDRpXRwLytK_kgMW5FY7/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
-    #t_10_2.titulo-segundo.color-acento-contenido
+
+    #t_10_2
+    
+    .titulo-segundo.color-acento-contenido
       h2 10.2 Pestañas horizontales - sencillas
 
     TabsC.color-primario
@@ -168,10 +154,12 @@
           .col-md-6
             h4 Celebrate your failures 2
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsC.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -184,25 +172,11 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto de maximo sugerido de 140 palabras que pueden ir acompañada de una  foto o ilustración.
 
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Pestañas o tabs
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-1ZkRCH5WZ7uZL3XgwvsahD1WGvRPsLGM3E1kIXHJU8/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span pestañas horizontales - sencillas
 
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido
       .py-3.py-md-4(titulo="Archivo de gestión o de oficina")
         .row.justify-content-center
           .col-lg-5.order-2.order-lg-1
@@ -236,16 +210,11 @@
 
             p.mb-0 Los procesos de organización de archivos son tres: clasificación, ordenación y descripción. A pesar de la aparente claridad, la primera dificultad que se encuentra al trabajar en archivos consiste en determinar qué se entiende archivísticamente por cada uno de ellos, pues las palabras mismas requieren atención por parte de los encargados de archivos para aclarar sus especificidades.
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1JrsYPz5-vLHIv6LFhfljklTCqYp6rb22/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
-
     separador
-    #t_10_3.titulo-segundo.color-acento-contenido
+
+    #t_10_3
+    
+    .titulo-segundo.color-acento-contenido
       h2 10.3 Pestañas horizontales - iconos
 
     TabsB.color-primario
@@ -268,10 +237,12 @@
           .col-md-6
             h4 Celebrate your failures 2
             p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/TabsB.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
+    
     .row.mb-5
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-botones
@@ -286,20 +257,6 @@
               li
                 i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto de maximo sugerido de 140 palabras que pueden ir acompañada de una  foto o ilustración.
-
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - Pestañas o tabs
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de pestañas o tabs.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1-1ZkRCH5WZ7uZL3XgwvsahD1WGvRPsLGM3E1kIXHJU8/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
@@ -358,13 +315,6 @@
             .tira_5
               img(src="@/assets/curso/temas/pestañas/slider.svg" alt="Adornos flotantes")
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1c5aIZTy2B928AM10e0blNUS2_GU7X8Xg/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
 </template>
 
 <script>

@@ -5,11 +5,15 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 14
-      h1 Estilos tipográficos
+      h1 Estilos tipográficos y tablas
 
-    #t_14_1.titulo-segundo.color-acento-contenido
+    #t_14_1
+    
+    .titulo-segundo.color-acento-contenido
       h2 14.1 Encabezados
-    h3.mb-5 #[i.fas.fa-angle-double-right.txt--green] Estilo de título para el índice de contenidos:             
+    
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--green] Estilo de título para el índice de contenidos:
+
     .row.justify-content-center.align-items-center
       .col-11
         .titulo-principal.color-acento-botones
@@ -22,14 +26,17 @@
 
         h3.titulo-tercero Título de tercer nivel, 20pt 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Encabezados.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
 
     separador
-    #t_14_2.titulo-segundo.color-acento-contenido
+
+    #t_14_2
+    .titulo-segundo.color-acento-contenido
       h2 14.2 Párrafos
+    
     p.mb-5 Los párrafos mantienen un tamaño regular de 16 pt con interlineado base de 24 pt, sin embargo, existe excepciones para resaltar contenido donde se puede hacer uso de pesos 
       span.text-thin THIN, 
       span.text-bold BOLD, 
@@ -39,14 +46,17 @@
       span.etiqueta etiquetas
       | de color (según paleta del programa). Así mismo, el ancho de los cajones textos permite variación en las doce (12) columnas. 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Encabezados.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
 
     separador
-    #t_14_3.titulo-segundo.color-acento-contenido
+
+    #t_14_3
+    .titulo-segundo.color-acento-contenido
       h2 14.3 Listados
+    
     p.mb-5 Se debe tener en cuenta que las personas realizan un escaneo del mismo para encontrar elementos de su interés. Las listas deben estar compuestas por elementos relacionados entre sí, con un orden específico o un conteo importante.
 
     .row.mb-5
@@ -168,14 +178,18 @@
           li 
             i.fas.fa-kiwi-bird.txt--green
             | Item lista no ordenada                                                          
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Listas.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
 
     separador
-    #t_14_4.titulo-segundo.color-acento-contenido
+
+    #t_14_4
+    
+    .titulo-segundo.color-acento-contenido
       h2 14.4 Bloques de texto destacado
+    
     p.mb-5 Cuando se tiene una información sencilla que se puede explicar en un solo párrafo y acompañada por una imagen es pertinente usar esta herramienta ya que se puede combinar perfectamente con cualquiera de las herramientas anteriormente descritas. Se puede utilizar cuando tenemos un solo bloque de texto, sin subtópicos, listas, ramificaciones y demás divisiones, complementándolo con las demás herramientas. 
 
     .row
@@ -186,8 +200,10 @@
       .col-lg-8
         .cajon.color-acento-botones.p-4
           .h5 Cajón texto color
-          p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.    
+          p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
+    
     hr.my-5
+
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img.jpg')})`}"
@@ -196,8 +212,10 @@
         p.mb-0 Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
           br
           br
-          | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure.      
+          | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure.
+      
     hr.my-5
+
     .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img.jpg')})`}"
@@ -206,19 +224,24 @@
         p.mb-0 Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
           br
           br
-          | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure.                 
+          | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure.
+    
     .row.justify-content-center.mt-5
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Cajon.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
 
     separador
-    #t_14_5.titulo-segundo.color-acento-contenido
+
+    #t_14_5
+    
+    .titulo-segundo.color-acento-contenido
       h2 14.5 Citas
+    
     .row
       .col-lg-6.mb-5.mb-lg-0
         h3.titulo-tercero Cajón texto color B
-        .bloque-texto-b.color-primario.p-4
+        .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             h2.mb-0 Can we all just agree as the greater design community to stop talking about Comic Sans altogether?
@@ -226,12 +249,14 @@
 
       .col-lg-6
         h3.titulo-tercero Cajón texto color C
-        .bloque-texto-c.color-primario.p-4
+        .bloque-texto-c.color-secundario.p-4
           i.fas.fa-quote-right
           h2.mb-2 Then you’ll prove to yourself that you can survive anything.
           span - The graphic designer
+    
     hr.my-5
-    .bloque-texto-f.color-primario.pt-4.px-5.mb-5
+
+    .bloque-texto-f.color-secundario.pt-4.px-5.mb-5
       .bloque-texto-f__comillas
         i.fas.fa-quote-left
         i.fas.fa-quote-right
@@ -248,7 +273,10 @@
           span Ver código fuente 
 
     separador
-    #t_14_6.titulo-segundo.color-acento-contenido
+
+    #t_14_6
+    
+    .titulo-segundo.color-acento-contenido
       h2 14.6 Título de figuras / imágenes 
 
     .titulo-sexto.color-acento-contenido.mb-3
@@ -259,26 +287,18 @@
       img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
       figcaption Leyenda de la imagen 
 
-    .row.justify-content-end.mb-5.me-3
+    .row.justify-content-end.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Imagenes.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente 
+          span Ver código fuente    
 
     separador
-    #t_14_7.titulo-segundo.color-acento-contenido
-      h2 14.7 Video 
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    .row.justify-content-end.mb-5.me-3
-      .col-auto
-        a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/video.txt')" target="_blank" type="application/pdf")
-          span Ver código fuente                
 
-    separador
-    #t_14_8.titulo-segundo.color-acento-contenido
-      h2 14.8 Tablas
+    #t_14_7
+    
+    .titulo-segundo.color-acento-contenido
+      h2 14.7 Tablas
+    
     .tabla-a.color-acento-botones 
       table
         caption Leyenda de la tabla
@@ -308,7 +328,8 @@
             td Celda 3
             td Celda 4
             td Celda 5
-    .row.justify-content-end.mb-5.me-3
+    
+    .row.justify-content-end.me-3
       .col-auto
         a.boton.color-primario.b--rad(:href="obtenerLink('/downloads/Tabla1.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
@@ -335,6 +356,7 @@
         tr
           th Formal
           td Design as if your life depended on it. Keep going. It isn’t what you are, but what you’re going to become. Don’t censor yourself. 
+    
     .row.justify-content-end.mb-5.me-3
       .col-auto
         a.boton.color-acento-botones.b--rad(:href="obtenerLink('/downloads/Tabla2.txt')" target="_blank" type="application/pdf")
@@ -399,15 +421,20 @@
             .h6.mb-0 $12.500.200
             span.text-small Textos pequeños
           td
-            .h6 FDSD33          
-    .row.justify-content-end.mb-5.me-3
+            .h6 FDSD33
+    
+    .row.justify-content-end.me-3
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Tabla3.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
 
     separador
-    #t_14_9.titulo-segundo.color-acento-contenido
-      h2 14.9 Llamados a la acción
+
+    #t_14_8
+    
+    .titulo-segundo.color-acento-contenido
+      h2 14.8 Llamados a la acción
+    
     h3.mb-5 #[i.fas.fa-angle-double-right.txt--green] Botón modal 
     .row
       .col-auto
@@ -436,6 +463,7 @@
           span Ver código fuente 
 
     h3.mb-5 #[i.fas.fa-angle-double-right.txt--green] Recursos y enlaces externos
+
     .row
       .col-lg-6
         a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -473,11 +501,13 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias         
+            p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+    
     .row.justify-content-center.mb-5
       .col-auto
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Externos.txt')" target="_blank" type="application/pdf")
           span Ver código fuente 
+
 </template>
 
 <script>

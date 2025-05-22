@@ -7,7 +7,7 @@
         span 7
       h1 Slider de imágenes
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/sliders/Slider.svg", alt="alt")
@@ -41,20 +41,6 @@
                 i.fas.fa-angle-right.txt--green
                 | Cada diapositiva debe ir acompañada de un texto corto de máximo 40 palabras que acompañe a una  foto o ilustración.
 
-            .tarjeta.color-primario.p-3
-              .row.justify-content-around.align-items-center
-                .col-auto
-                  img(src="@/assets/template/document.svg").img65
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h4.mb-1 Formato instruccional - slider de imágenes
-                      p.text-small.mb-0 Formato de Diseño Instruccional para la creación de sliders de imágenes.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://docs.google.com/document/d/1PPRatnr8cI2Hxkv8hzg_e3qw3N0FVQs3yvO0rZLNaJE/edit?usp=sharing" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Ejemplo
       span slider de imágenes
@@ -62,13 +48,6 @@
     .bg--gradientBlue.p-5.mb-4
       SlyderB(:datos="datosSlyderEjemplo")
 
-    .row.justify-content-center
-      .col-auto
-        a.anexo(href="https://drive.google.com/file/d/1xt2_2znZujBom5pjSFBXrlVJSVxbkIiT/view?usp=sharing" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Formato instruccional - muestra
 </template>
 
 <script>

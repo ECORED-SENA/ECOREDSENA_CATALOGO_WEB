@@ -15,20 +15,6 @@
         .crd.clr-paleYellow.p-4.mb-4
           p.mb-0 Archivo en formato MP3 que se puede combinar con otros componentes interactivos para reforzar la explicación de un tema o concepto. Por ejemplo, se puede utilizar en conjunto con un slider de diapositivas para dar lugar a un sonoviso.  
 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/document.svg").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Formato instruccional - Audio
-                  p.mb-0.text-small Formato de Diseño Instruccional para la implementación de audios.
-                .col-sm-auto
-                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/11fnsHlnUr7UEYg6ePqdXt2ngB_1xo4X_ChKeFEcInlE/edit?usp=sharing" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download      
-
     .titulo-segundo.color-acento-contenido
       h2 Ejemplos destacados
 
@@ -64,7 +50,6 @@
       .col-auto
         a.boton.color-acento-contenido.texto-blanco.b--rad(:href="obtenerLink('/downloads/Audio.txt')" target="_blank" type="application/pdf")
           span Ver código fuente
-  
 
 </template>
 

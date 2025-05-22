@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Catálogo de componentes web RED SENA',
-    descripcionCurso:
+    Name: 'Catálogo de componentes web RED SENA',
+    Description:
       'El presente recurso contiene ejemplos del catálogo de componentes usados por el equipo de diseño y desarrollo al momento de virtualizar un programa de formación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -35,11 +35,17 @@ export default {
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
       },
+      //{
+      //  nombreRuta: 'introduccion',
+      //  icono: 'fas fa-info-circle',
+      //  titulo: 'Introducción',
+      //  desarrolloContenidos: true,
+      //},
       {
         nombreRuta: 'tema1',
 
         numero: '1',
-        titulo: 'Infografía',
+        titulo: 'Infografía estática',
         desarrolloContenidos: true,
       },
 
@@ -75,28 +81,6 @@ export default {
         numero: '4',
         titulo: 'Videos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '4.1',
-            titulo: 'Spot animado',
-            hash: 't_4_1',
-          },
-          {
-            numero: '4.2',
-            titulo: 'Motion Graphics',
-            hash: 't_4_2',
-          },
-          {
-            numero: '4.3',
-            titulo: 'Video clase',
-            hash: 't_4_3',
-          },
-          {
-            numero: '4.4',
-            titulo: 'Información del programa',
-            hash: 't_4_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
@@ -284,7 +268,7 @@ export default {
         nombreRuta: 'tema14',
 
         numero: '14',
-        titulo: 'Estilos tipográficos',
+        titulo: 'Estilos tipográficos y tablas',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -319,28 +303,54 @@ export default {
           },
           {
             numero: '14.7',
-            titulo: 'Video',
+            titulo: 'Tablas',
             hash: 't_14_7',
           },
           {
             numero: '14.8',
-            titulo: 'Tablas',
-            hash: 't_14_8',
-          },
-          {
-            numero: '14.9',
             titulo: 'Llamados a la acción',
-            hash: 't_14_9',
+            hash: 't_14_8',
           },
         ],
       },
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'glosario',
+        icono: 'fas fa-sort-alpha-down',
+        titulo: 'Glosario',
+      },
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
+      {
+        icono: 'fas fa-book',
+        titulo: 'Referencias bibliográficas',
+        nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/dist.pdf',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -353,24 +363,14 @@ export default {
     {
       tema: '',
       referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tipo: 'Sitio web',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
-    },
-    {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Término',
+      significado: 'Definición',
     },
   ],
   referencias: [
@@ -381,31 +381,62 @@ export default {
   ],
   creditos: [
     {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Nombre completo',
+          cargo: 'Responsable del ecosistema',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Nombre completo',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro XYZ - Regional XYZ',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Nombre responsable',
+          cargo: 'Nombre del rol',
+          centro: 'Centro XYZ - Regional XYZ',
+        },
+      ],
+    },
+    {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable diseño y desarrollo web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre responsable',
+          cargo: 'Diseñador de contenidos',
+          centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Edward Leonardo Pico Cabra',
-          cargo: 'Desarrollo web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre responsable',
+          cargo: 'Desarrollador <i>full stack</i>',
+          centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Diseño gráfico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre responsable',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro XYZ - Regional XYZ',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Nombre responsable',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro XYZ - Regional XYZ',
         },
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Nombre responsable',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro XYZ - Regional XYZ',
         },
       ],
     },
